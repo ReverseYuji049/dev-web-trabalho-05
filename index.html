@@ -67,7 +67,7 @@
             display: flex;
             margin-top: 15px;
         }
-
+        /* Efeito no botão de enviar */
         #submit:hover {
             background: #ff7b00;
         }
@@ -99,7 +99,7 @@
             border: 1px solid #ccc;
             border-radius: 8px;
         }
-
+        /* Efeito no input */
         input:focus,
         select:focus,
         textarea:focus{
@@ -107,13 +107,13 @@
             border-color: #ff7b00;
             box-shadow: none;
         }
-
+        /* Responsividade */
         @media(max-width: 600px){
-            .buttons{
+            .button{
                 flex-direction: column;
             }
 
-            button{
+            #submit{
                 width: 100%;
             }
         }
